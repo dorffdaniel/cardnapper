@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cartao Clonado ?</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="cabecalho">
+        <h1>segurityCard</h1>
+        <div class="hamburguer">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav>
+            <ul class="navList">
+                <li><a href="#quemSomos">quem somos</a></li>
+                <li><a href="#verificar">verificar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="quemSomos">
+            <h2>Sua Segurança é a Nossa Prioridade 🔒 </h2>
+            <p>Somos uma equipe especializada em segurança digital, dedicada a proteger você contra fraudes financeiras. Nosso site foi criado para ajudar consumidores e empresas a verificarem se um cartão de crédito ou débito pode ter sido comprometido.</p>
+            <p>verifique abaixo</p>
+            <span><a href="#verificar"><i class='bx bx-chevrons-down'></i></a></span>
+        </section>
+        <section id="verificar">
+
+            <div class="conteudo-cartao">
+
+                <div class="frenteCartao">
+                    <p class="marca">CRED</p>
+                    <div class="numeroCartao">
+                        <p>numero do cartao</p>
+                        <p>validade</p>
+                    </div>
+                    <div class="nomeCartao">
+                        <p>nome no cartao</p>
+                    </div>
+                </div>
+
+                <div class="versoCartao">
+                    <span></span>
+                    <p class="codigo">codigo Ex: 000</p>
+                </div>
+            </div>
+            <div class="formulario">
+                <form action="" class="form">
+                    <div class="conteudoLabel">
+                        <label for="nome">Nome no cartao:</label>
+                        <input class="borda" type="text" id="nome">
+                    </div>
+
+                    <div class="conteudoLabel">
+                    <label for="numero">Numero do cartao</label>
+                    <input class="borda" type="number" name="" id="numero">
+                    </div>
+
+                    <div class="conteudoLabel">
+                    <label for="data">Data de expiraçao: </label>
+                    <input class="borda" type="number" id="expMonth" placeholder="MM" min="1" max="12" oninput="validateMonth(this)">
+
+                    <input class="borda" type="number" id="expYear" placeholder="YYYY" min="2024" oninput="validateYear(this)">
+                    </div>
+
+                    <div class="conteudoLabel">
+                    <label for="senha">Senha do cartao:</label>
+                    <input class="borda" type="password" name="" id="senha">
+                    </div>
+
+                    <button class="btnVerificar">Verificar</button>
+                </form>
+                <div class="resultado">
+                    <p>sim agora seu cartao foi clonado</p>
+                    <span>obrigado</span>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="src/js/script.js"></script>
+</body>
+</html>
