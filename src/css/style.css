@@ -34,6 +34,7 @@ html{
 .hamburguer{
     display: block;
     position: absolute;
+    cursor: pointer;
     right: 0.5em;
     z-index: 1;
 }
@@ -99,6 +100,7 @@ html{
 }
 
 #quemSomos h2{
+    font-size: calc(1vw + 1em);
     margin-bottom: 1em;
     text-align: center;
     font-family: "Roboto", serif;
@@ -239,6 +241,7 @@ html{
     border: none;
     color: #ffffff;
     margin-top: 2em;
+    cursor: pointer;
 }
 
 .borda-certa{

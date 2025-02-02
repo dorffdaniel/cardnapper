@@ -1,0 +1,164 @@
+@media (min-width: 425px) and (max-width: 600px){
+    .frenteCartao, .versoCartao{
+        width: 22em;
+        height: 13em;
+    }
+
+    .formulario form{
+        height: 40vh;
+        width: 22em;
+    }
+
+    .conteudoLabel input{
+        width: 20em;
+        height: 2em;
+    }
+
+    .conteudoLabel .separarInputs{
+        margin-bottom: 0.5em;
+    }
+
+    .btnVerificar{
+        font-size: 1em;
+    }
+
+}
+
+@media(min-width: 601px) and (max-width: 700px){
+    .frenteCartao, .versoCartao{
+        width: 28em;
+        height: 14em;
+    }
+
+    .formulario form{
+        height: 21em;
+        width: 28em;
+    }
+
+    .conteudoLabel input{
+        width: 25em;
+        height: 2em;
+    }
+
+    .conteudoLabel .separarInputs{
+        margin-bottom: 0.5em;
+    }
+
+    .btnVerificar{
+        font-size: 1em;
+        margin-top: 1em;
+    }
+
+}
+
+@media(min-width: 701px) and (max-width: 800px){
+    .frenteCartao, .versoCartao{
+        width: 30em;
+        height: 15em;
+    }
+
+    .formulario form{
+        height: 21em;
+        width: 30em;
+    }
+
+    .conteudoLabel input{
+        width: 28em;
+        height: 2em;
+    }
+
+    .conteudoLabel .separarInputs{
+        margin-bottom: 0.5em;
+    }
+
+    .btnVerificar{
+        font-size: 1.1em;
+        margin-top: 1em;
+    }
+}
+
+@media(min-width: 801px) and (max-width: 1000px){
+    #quemSomos .bx{
+        margin-top: 0;
+    }
+
+    .frenteCartao, .versoCartao{
+        width: 30em;
+        height: 15em;
+    }
+
+    .formulario form{
+        height: 21em;
+        width: 30em;
+    }
+
+    .conteudoLabel input{
+        width: 28em;
+        height: 2em;
+    }
+
+    .conteudoLabel .separarInputs{
+        margin-bottom: 0.5em;
+    }
+
+    .btnVerificar{
+        font-size: 1.1em;
+        margin-top: 1em;
+    }
+}
+
+@media (min-width:1001px) {
+    .hamburguer{
+        display: none;
+    }
+
+    .navList{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        height: 8vh;
+        background: transparent;
+        opacity: 1;
+    }
+
+    .navList a{
+        color: #fff;
+        font-size: calc(1vw + 0.8em);
+        border-bottom: 1px solid transparent;
+        transition: all ease 0.5s;
+    }
+
+    .navList a:hover{
+        border-bottom: 2px solid #e0b804;
+        transition: all ease 0.3s;
+        padding-bottom: 0.2em;
+    }
+
+    #quemSomos h2{
+        font-size: calc(1vw + 1.2em);
+    }
+
+    .frenteCartao, .versoCartao{
+        width: 30em;
+        height: 15em;
+    }
+
+    .formulario form{
+        height: 21em;
+        width: 30em;
+    }
+
+    .conteudoLabel input{
+        width: 28em;
+        height: 2em;
+    }
+
+    .conteudoLabel .separarInputs{
+        margin-bottom: 0.5em;
+    }
+
+    .btnVerificar{
+        font-size: 1.1em;
+        margin-top: 1em;
+    }
+}
