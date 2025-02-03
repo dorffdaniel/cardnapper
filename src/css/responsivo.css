@@ -1,4 +1,8 @@
 @media (min-width: 425px) and (max-width: 600px){
+    .conteudo-clientes{
+        width: 20em;
+    }
+
     .frenteCartao, .versoCartao{
         width: 22em;
         height: 13em;
@@ -25,6 +29,15 @@
 }
 
 @media(min-width: 601px) and (max-width: 700px){
+    .conteudo-clientes{
+        width: 25em;
+    }
+    
+    .conteudo-clientes img{
+        width: 6em;
+        height: 6em;
+    }
+    
     .frenteCartao, .versoCartao{
         width: 28em;
         height: 14em;
@@ -52,6 +65,16 @@
 }
 
 @media(min-width: 701px) and (max-width: 800px){
+    .conteudo-clientes{
+        width: 28em;
+        height: 20em;
+    }
+    
+    .conteudo-clientes img{
+        width: 7em;
+        height: 7em;
+    }
+     
     .frenteCartao, .versoCartao{
         width: 30em;
         height: 15em;
@@ -80,6 +103,16 @@
 @media(min-width: 801px) and (max-width: 1000px){
     #quemSomos .bx{
         margin-top: 0;
+    }
+
+    .conteudo-clientes{
+        width: 30em;
+        height: 23em;
+    }
+    
+    .conteudo-clientes img{
+        width: 7em;
+        height: 7em;
     }
 
     .frenteCartao, .versoCartao{
@@ -136,6 +169,28 @@
 
     #quemSomos h2{
         font-size: calc(1vw + 1.2em);
+    }
+
+    #clientes{
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: stretch;
+    }
+
+    .conteudo-clientes{
+        margin-top: 1em;
+        width: 19em;
+        height: 22em; 
+    }
+    
+    .conteudo-clientes img{
+        width: 7em;
+        height: 7em;
+    }
+
+    .conteudo-clientes p{
+        font-size: calc(1vw + 0.3em);
+        margin-bottom: 0;
     }
 
     .frenteCartao, .versoCartao{
