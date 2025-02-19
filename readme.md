@@ -13,3 +13,6 @@ securityCard é um site de simulação criado para fins educacionais. Ele finge 
 
 ## Sobre 
 Esta página foi desenvolvida com a abordagem Mobile First, garantindo uma experiência otimizada para dispositivos móveis e melhorando seu desempenho em SEO.
+
+## Contato
+[linkedin](https://www.linkedin.com/in/daniel-alves-9872392a7/)
