@@ -333,11 +333,11 @@ html{
 
  /*  fim do cartao */
 
-.conteudo-cartao{
-    margin: 1em;
+/* .conteudo-cartao{
+    margin: 0.2em;
 }
-
-.frenteCartao{
+ */
+/* .frenteCartao{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -348,31 +348,31 @@ html{
     padding: 0.2em;
     margin-bottom: 0.5em;
     font-family: "Liter", serif;
-}
+} */
 
-.frenteCartao .marca{
+/* .frenteCartao .marca{
     text-align: end;
     margin-bottom: 1.6em;
     margin-right: 0.5em;
     color: #fff;
-}
+} */
 
-.numeroCartao{
+/* .numeroCartao{
     display: flex;
     flex-direction: column;
     background: #fff;
     margin-bottom: 1em;
     padding: 0.2em;
     width: 100%;
-}
+} */
 
-.nomeCartao{
+/* .nomeCartao{
     display: flex;
     margin-left: 1em;
     color: #fff;
-}
+} */
 
-.versoCartao{
+/* .versoCartao{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -382,19 +382,19 @@ html{
     border-radius: 1em;
     font-family: "Liter", serif;
     color: #fff;
-}
+} */
 
-.versoCartao span{
+/* .versoCartao span{
     background: #000;
     height: 4vh;
     margin-bottom: 1.7em;
-}
+} */
 
-.versoCartao .codigo{
+/* .versoCartao .codigo{
     display: flex;
     justify-content: end;
     margin-right: 0.5em;
-}
+} */
 
 .formulario{
     display: flex;
