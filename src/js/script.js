@@ -6,11 +6,13 @@ hamburguer.addEventListener('click', ()=>{
     hamburguer.classList.toggle('ativar');
 });
 
+
 function validateMonth(input) {
     let value = parseInt(input.value);
     if (value > 12) input.value = 12;
     if (value < 1) input.value = "";
 };
+
 
 function validateYear(input) {
     let currentYear = new Date().getFullYear();

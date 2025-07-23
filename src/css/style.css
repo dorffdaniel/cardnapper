@@ -13,6 +13,13 @@
     outline: none;
 }
 
+
+:root{
+    --principal: #063453;
+    --background: #a3c8e0;
+
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -21,7 +28,7 @@ html{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #063453;
+    background: var(--principal);
     height: 8vh;
 }
 
@@ -92,7 +99,7 @@ html{
 
 #quemSomos{
     height: 100vh;
-    background: #a3c8e0;
+    background: var(--background);
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -136,7 +143,7 @@ html{
 
 #clientes{
     height: 100vh;
-    background: #a3c8e0;
+    background: var(--background);
     display: flex;
     align-items: center;
     flex-direction: column;
